@@ -7,7 +7,7 @@
 flake8==7.5.0 \
     --hash=sha256:0dab7566341aca0d80aa29b5812bdadf256caa6a63e6068e49ac2649918236a4 \
     --hash=sha256:637ea1a443a78ed6ee461725cdf71ca93bc5cde0abf25436dbebdc3880b4e078
-    # via -r .github/workflows/requirements/testing.in
+    # via -r testing.in
 iniconfig==2.3.1 \
     --hash=sha256:67f4b9c50da0dedf52af349e7749a80a9057a5031199791b906c3bb3ae878960 \
     --hash=sha256:9121e2c1fdb355232495be3194c8dfe87ccc2d5dee45947b78e68f499790d7a7
@@ -41,14 +41,14 @@ pygments==2.21.0 \
 pytest==9.2.0 \
     --hash=sha256:07acdcf88ec174f907dc01af70bf52d49b014bbab03faeeade31c96b18c2e588 \
     --hash=sha256:97c4f3b1f3c7414aa36465e09b8220f1d03627993bd51b1282e193753c80557b
-    # via -r .github/workflows/requirements/testing.in
+    # via -r testing.in
 wheel==0.48.0 \
     --hash=sha256:3217dcc807155e45db462d7ef2431f5ddda0d7273b700d05a67b271ceb1287ab \
     --hash=sha256:94800765601e9171bf5d58d066e640662842bcedcbab982b2c90787a2c987322
-    # via -r .github/workflows/requirements/testing.in
+    # via -r testing.in
 
 # The following packages are considered to be unsafe in a requirements file:
 setuptools==84.2.1 \
     --hash=sha256:3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc \
     --hash=sha256:ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2
-    # via -r .github/workflows/requirements/testing.in
+    # via -r testing.in
