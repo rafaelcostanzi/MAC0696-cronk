@@ -34,7 +34,7 @@ jobs:
           persist-credentials: false
 
       - name: Set up Python 3.15
-        uses: actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f # v5.1.1
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.15"
 
